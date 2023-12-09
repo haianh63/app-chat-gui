@@ -1,0 +1,44 @@
+.header, .chatBar {
+    -fx-min-height: 100px;
+    -fx-max-height: 100px;
+    -fx-background-color: #F8DFD4;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.chatBox {
+    -fx-background-color: #FFEFE8;
+    -fx-min-height: 467px;
+    -fx-max-height: 467px;
+    -fx-padding: 20px;
+}
+.avatar {
+    -fx-border-radius: 50%;
+}
+.callButton, .sendButton {
+    -fx-background-color: transparent;
+}
+.normalCallButton {
+    -fx-margin: 0 40 0 0;
+}
+.callButton:hover, .sendButton:hover {
+    -fx-cursor: hand;
+}
+.typeArea {
+    -fx-min-width: 280px;
+    -fx-max-width: 280px;
+    -fx-min-height: 70px;
+    -fx-max-height: 70px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-font-size: 20px;
+    -fx-background-color: #FFCBBF;
+}
+
+.messageBox {
+    -fx-background-radius: 20px;
+    -fx-background-color:  #DDC8C8;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+}
